@@ -1,0 +1,43 @@
+html {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.stats {
+    width: 600px;
+    height: 200px;
+    align-items: center;
+}
+
+.grid {
+    position: absolute;
+    width: 560px;
+    height: 400px;
+    border: solid white 2px;
+    background-color: burlywood;
+    background-image: url(bt_images/grass2.jpg);
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(36, 132, 241);
+    border: groove red 2px;
+}
+
+.bat {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color:  burlywood;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+}
